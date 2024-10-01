@@ -26,15 +26,22 @@
         table {
             border: 1px solid black; 
         }
+        a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+        }
     </style>
 </head>
 
 <body>
     <img src="bird.png">
     <br>
-    <form method="post" action="survey.html">
-       
-        <input type="submit" name="start" value="start survey" formaction="survey.html"/>
-    </form> 
+
+    
+    <a href="survey.html" class="button">Start</a>
 </body>
 </html>
